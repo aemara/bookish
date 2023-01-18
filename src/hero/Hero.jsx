@@ -2,8 +2,8 @@ import heroImg from "../assets/hero-img-2.svg";
 
 export default function Hero() {
   return (
-    <section className="w-5/6 mx-auto mt-10 flex justify-between">
-      <div className="w-1/2">
+    <section className="container w-5/6 mx-auto mt-10 flex justify-between">
+      <div className="w-1/2 self-center">
         <h2 className="text-4xl font-semibold leading-tight text-gray-900">
           Discover your next great read today!{" "}
         </h2>
@@ -16,7 +16,7 @@ export default function Hero() {
           start exploring now!
         </button>
       </div>
-      <div className="w-1/2 self-center">
+      <div className="w-1/2 ">
         <img src={heroImg} alt="Hero image" />
       </div>
     </section>
