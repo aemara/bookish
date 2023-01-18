@@ -41,8 +41,8 @@ export default function Header() {
                 className="border-y border-l border-slate-400
              hover:border-slate-900 focus:outline-none focus:border-slate-900 active:border-slate-900 transition px-2 py-2"
               />
-              <div className="bg-slate-900 p-2 hover:bg-slate-600 w-fit">
-                <button className=" transition h-full">
+              <div className="bg-slate-900 p-2 hover:bg-slate-600 transition hover:cursor-pointer w-fit">
+                <button>
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
                     size="xl"
