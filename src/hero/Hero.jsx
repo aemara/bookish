@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="container w-5/6 mx-auto mt-10 flex justify-between">
       <div className="w-1/2 self-center">
         <h2 className="text-4xl font-semibold leading-tight text-gray-900">
-          Discover your next great read today!{" "}
+          Discover your next great read today!
         </h2>
         <p className="mt-4 text-lg text-gray-800 leading-loose text-justify w-5/6">
           Browse our selection of books, including NY Times bestsellers, shop

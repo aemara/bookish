@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Tooltip } from "@mui/material";
 import {
   faMagnifyingGlass,
   faHeart,
@@ -52,12 +53,16 @@ export default function Header() {
               </div>
             </div>
 
-            <button className="mr-5">
-              <FontAwesomeIcon icon={faHeart} size="2xl" />
-            </button>
-            <button>
-              <FontAwesomeIcon icon={faCartShopping} size="2xl" />
-            </button>
+            <Tooltip title="Wishlist">
+              <button className="mr-5">
+                <FontAwesomeIcon icon={faHeart} size="2xl" />
+              </button>
+            </Tooltip>
+            <Tooltip title="Cart">
+              <button>
+                <FontAwesomeIcon icon={faCartShopping} size="2xl" />
+              </button>
+            </Tooltip>
           </div>
         </div>
       </div>
