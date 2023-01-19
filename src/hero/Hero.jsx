@@ -12,7 +12,7 @@ export default function Hero() {
           for your favorite titles, or search for free ebooks on Project
           Gutenberg and the Internet Archive.
         </p>
-        <button className="bg-indigo-600 text-white capitalize tracking-wide font-medium py-2 px-4 mt-3 rounded-lg hover:bg-indigo-500 transition">
+        <button className="bg-indigo-600 text-white capitalize tracking-wide font-medium py-2 px-4 mt-3 hover:bg-indigo-500 transition">
           start exploring now!
         </button>
       </div>
