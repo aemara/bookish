@@ -23,7 +23,8 @@
     "@tabler/icons": "^1.119.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-horizontal-scrolling-menu": "^3.2.3"
+    "react-horizontal-scrolling-menu": "^3.2.3",
+    "react-router-dom": "^6.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
