@@ -11,8 +11,8 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="border-b-2 pb-4">
-      <div className="bg-slate-300 text-slate-800 py-2">
-        <div className="container w-5/6 text-sm tracking-wider mx-auto flex gap-x-3">
+      <div className="bg-zinc-200 text-slate-800 py-2">
+        <div className="max-w-7xl w-5/6 text-sm tracking-wider mx-auto flex gap-x-3">
           <a
             href="/"
             className="font-light uppercase hover:text-slate-500 transition"
@@ -29,8 +29,8 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="text-slate-800 py-3">
-        <div className=" container w-5/6 mx-auto flex justify-between items-center">
+      <div className="text-neutral-900 py-3">
+        <div className=" max-w-7xl w-5/6 mx-auto flex justify-between items-center">
           <h1 className="text-white bg-slate-800 p-2  text-5xl tracking-wider font-black">
             bookish
           </h1>
@@ -67,13 +67,13 @@ export default function Header() {
         </div>
       </div>
 
-      <nav className="container w-5/6 mx-auto mt-2">
+      <nav className="max-w-7xl w-5/6 mx-auto mt-2">
         <ul className="flex justify-between text-slate-900 font-medium text-l">
           <li className="hover:text-slate-500 hover:cursor-pointer transition">
             shop books
           </li>
           <li className="hover:text-slate-500 hover:cursor-pointer transition">
-            NYT best sellers
+            NY Times bestsellers
           </li>
           <li className="hover:text-slate-500 hover:cursor-pointer transition">
             project gutenberg
